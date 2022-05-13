@@ -34,17 +34,7 @@ function ready() {
         button.addEventListener('click', addCartClicked);
     }
 
-    // document.getElementsByClassName('btn-buy')[0].addEventListener('click', buyButtonClicked);
 }
-
-// function buyButtonClicked(){
-//     alert('fdgdfgfgh')
-//     var cartContent =  document.getElementsByClassName('cart-content')[0]
-//     while(cartContent.hasChildNodes()){
-//         cartContent.removeChild(cartContent.firstChild);
-//     }
-//     updatetotal();
-// }
 
 function removeCartItem(event) {
     var buttonClicked = event.target;
@@ -119,4 +109,3 @@ function updatetotal() {
     
 
 }
-
